@@ -1,0 +1,25 @@
+# Default values for chart
+
+web:
+  name: rating-web
+  deployment: rating-web-prod
+  versionLabel: prod
+  replicas: 1
+  image: "chzbrgr71/rating-web"
+  imageTag: "v6"
+  serviceType: "LoadBalancer"
+api:
+  name: rating-api
+  deployment: rating-api-prod
+  versionLabel: prod
+  replicas: 3
+  image: "chzbrgr71/rating-api"
+  imageTag: "v6"
+  serviceType: "LoadBalancer"
+mongo:
+  name: mongo
+  deployment: mongo
+  versionLabel: prod
+  image: "chzbrgr71/mongohero"
+  imageTag: "v6"
+  serviceType: "LoadBalancer"
