@@ -12,7 +12,7 @@ api:
   name: rating-api
   deployment: rating-api-prod
   versionLabel: prod
-  replicas: 3
+  replicas: 1
   image: "chzbrgr71/rating-api"
   imageTag: "v6"
   serviceType: "LoadBalancer"
