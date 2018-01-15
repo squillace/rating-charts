@@ -5,5 +5,5 @@ api:
   versionLabel: prod
   replicas: 1
   image: "chzbrgr71/rating-api"
-  imageTag: "latest"
+  imageTag: "v2"
   serviceType: "ClusterIP"
