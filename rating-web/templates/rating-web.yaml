@@ -15,7 +15,7 @@ spec:
         image: "{{.Values.web.image}}:{{.Values.web.imageTag}}"
         env:
         - name: API
-          value: http://rating-api.default.svc.cluster.local:3000/api
+          value: http://rating-api.default.svc.cluster.local:3000/
         - name: KUBE_NODE_NAME
           valueFrom:
             fieldRef:

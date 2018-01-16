@@ -6,4 +6,4 @@ api:
   replicas: 1
   image: "chzbrgr71/rating-api"
   imageTag: "v2"
-  serviceType: "ClusterIP"
+  serviceType: "LoadBalancer"
