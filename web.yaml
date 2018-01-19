@@ -32,7 +32,7 @@ spec:
         name:  heroes-web
     spec:
       containers:
-      - image: chzbrgr71/rating-web:latest
+      - image: chzbrgr71/rating-web:local
         name:  heroes-web-cntnr
         resources:
           requests:
