@@ -4,6 +4,6 @@ web:
   deployment: rating-web-prod
   versionLabel: prod
   replicas: 1
-  image: "chzbrgr71/rating-web"
-  imageTag: "v2"
+  image: "squillace.azurecr.io/squillace/rating-web"
+  imageTag: "latest"
   serviceType: "LoadBalancer"
