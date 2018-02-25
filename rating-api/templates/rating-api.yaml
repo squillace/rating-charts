@@ -13,6 +13,8 @@ spec:
       containers:
       - name: "{{.Values.api.name}}"
         image: "{{.Values.api.image}}:{{.Values.api.imageTag}}"
+      imagePullSecrets:
+      - name: squillace-acr-auth
         env:
         - name: MONGODB_URI
           value: mongodb://rating-db.default.svc.cluster.local:27017/webratings

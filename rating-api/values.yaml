@@ -4,6 +4,6 @@ api:
   deployment: rating-api-prod
   versionLabel: prod
   replicas: 1
-  image: "chzbrgr71/rating-api"
-  imageTag: "v2"
+  image: "squillace.azurecr.io/squillace/rating-api"
+  imageTag: "latest"
   serviceType: "LoadBalancer"
